@@ -1,0 +1,54 @@
+import { chromium } from '@playwright/test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+const browser = await chromium.launch({channel:'msedge', headless:true});
+const baseUrl=process.env.TEST_URL || 'http://127.0.0.1:5173';
+const errors=[];
+const results=[];
+for(const width of [320,360,375,768,1440]) {
+  const page=await browser.newPage({viewport:{width,height:width===360?731:900},reducedMotion:'reduce'});
+  page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(baseUrl);
+  await page.evaluate(()=>document.fonts.ready);
+  await page.screenshot({path:`artifacts/pass-3-${width}.png`,fullPage:true});
+  const metrics=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth, cards:[...document.querySelectorAll('.link-card')].map(el=>({width:el.getBoundingClientRect().width,height:el.getBoundingClientRect().height})),avatarLoaded:document.querySelector('.avatar-ring img').naturalWidth>0, heading:document.querySelector('h1').textContent, animations:document.getAnimations().filter(a=>a.playState==='running').length}));
+  assert.equal(metrics.scrollWidth,width);
+  assert.equal(metrics.cards.length,5);
+  assert(metrics.cards.every(c=>c.height>=44));
+  assert(metrics.avatarLoaded);
+  assert.equal(metrics.heading,'John Doe');
+  assert.equal(metrics.animations,0);
+  assert.equal(await page.getByRole('button',{name:'Skip',exact:true}).count(),0);
+  await page.keyboard.press('Tab');
+  assert.equal(await page.locator(':focus').textContent(),'Skip to links');
+  await page.keyboard.press('Enter');
+  await page.keyboard.press('Tab');
+  assert((await page.locator(':focus').getAttribute('class')).includes('link-card'));
+  const links=await page.locator('.link-card').evaluateAll(els=>els.map(el=>({href:el.getAttribute('href'),rel:el.getAttribute('rel'),target:el.getAttribute('target')})));
+  assert(links.every(l=>l.href.startsWith('mailto:')||(l.target==='_blank'&&l.rel.includes('noopener'))));
+  results.push(metrics);
+  await page.close();
+}
+const page=await browser.newPage({viewport:{width:360,height:731}});
+page.on('pageerror',e=>errors.push(e.message));
+await page.goto(baseUrl);
+await page.getByRole('button',{name:'Skip',exact:true}).click();
+assert.equal(await page.locator('.boot-lines').textContent(),'>> developer\n>> cybersecurity\n>> always learning');
+await page.waitForTimeout(2600);
+assert.equal(await page.locator('h1 [aria-hidden=true]').innerText(),'John Doe');
+await page.screenshot({path:'artifacts/pass-3-animated-360.png',fullPage:true});
+const first=page.locator('.link-card').first();
+const before=await first.boundingBox();
+await first.hover();
+await page.waitForTimeout(250);
+const after=await first.boundingBox();
+assert(after.y<before.y);
+await page.reload();
+await page.waitForTimeout(2400);
+assert.equal(await page.getByRole('button',{name:'Skip',exact:true}).count(),0);
+assert.equal(errors.length,0,errors.join('\n'));
+await fs.writeFile('artifacts/verification.json',JSON.stringify({results,errors,bootSkip:true,bootCompletesWithin2400ms:true,keyboard:true,hover:true},null,2));
+console.log('PASS: all five viewport sizes, reduced motion, keyboard navigation, safe links, boot skip/completion, hover, no runtime errors.');
+await browser.close();
+
+

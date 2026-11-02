@@ -1,0 +1,154 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "cards": [
+        {
+          "width": 274,
+          "height": 52
+        },
+        {
+          "width": 274,
+          "height": 52
+        },
+        {
+          "width": 274,
+          "height": 52
+        },
+        {
+          "width": 274,
+          "height": 52
+        },
+        {
+          "width": 274,
+          "height": 52
+        }
+      ],
+      "avatarLoaded": true,
+      "heading": "John Doe",
+      "animations": 0
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "cards": [
+        {
+          "width": 296,
+          "height": 52
+        },
+        {
+          "width": 296,
+          "height": 52
+        },
+        {
+          "width": 296,
+          "height": 52
+        },
+        {
+          "width": 296,
+          "height": 52
+        },
+        {
+          "width": 296,
+          "height": 52
+        }
+      ],
+      "avatarLoaded": true,
+      "heading": "John Doe",
+      "animations": 0
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "cards": [
+        {
+          "width": 311,
+          "height": 52
+        },
+        {
+          "width": 311,
+          "height": 52
+        },
+        {
+          "width": 311,
+          "height": 52
+        },
+        {
+          "width": 311,
+          "height": 52
+        },
+        {
+          "width": 311,
+          "height": 52
+        }
+      ],
+      "avatarLoaded": true,
+      "heading": "John Doe",
+      "animations": 0
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "cards": [
+        {
+          "width": 400,
+          "height": 58
+        },
+        {
+          "width": 400,
+          "height": 58
+        },
+        {
+          "width": 400,
+          "height": 58
+        },
+        {
+          "width": 400,
+          "height": 58
+        },
+        {
+          "width": 400,
+          "height": 58
+        }
+      ],
+      "avatarLoaded": true,
+      "heading": "John Doe",
+      "animations": 0
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "cards": [
+        {
+          "width": 400,
+          "height": 58
+        },
+        {
+          "width": 400,
+          "height": 58
+        },
+        {
+          "width": 400,
+          "height": 58
+        },
+        {
+          "width": 400,
+          "height": 58
+        },
+        {
+          "width": 400,
+          "height": 58
+        }
+      ],
+      "avatarLoaded": true,
+      "heading": "John Doe",
+      "animations": 0
+    }
+  ],
+  "errors": [],
+  "bootSkip": true,
+  "bootCompletesWithin2400ms": true,
+  "keyboard": true,
+  "hover": true
+}

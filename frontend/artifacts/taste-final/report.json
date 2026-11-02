@@ -1,0 +1,1080 @@
+{
+ "url": "http://127.0.0.1:4173",
+ "at": "2026-11-02T12:51:20.754Z",
+ "allow": [
+  "mono",
+  "gradient",
+  "shadow",
+  "button-fx",
+  "outlined-box",
+  "few-pictures",
+  "small-text",
+  "focal-point",
+  "off-centre",
+  "eyebrow",
+  "font-count",
+  "no-footage",
+  "small-title"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 1,
+   "filled": [
+    0.33
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 4,
+    "transitions": 0,
+    "scripted": 12,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 900,
+     "screens": 1,
+     "words": 103,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "John Doe John Doe",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 25,
+     "vw": 1.7,
+     "font": "Space Grotesk",
+     "weight": 700,
+     "tracking": -0.032,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.28,
+     "top": 245,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "John Doe John Doe",
+     "words": 4,
+     "lines": 1,
+     "size": 25,
+     "font": "Space Grotesk"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Arial",
+       "share": 0.66,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.32,
+       "mono": true
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      8,
+      12,
+      13,
+      14,
+      16,
+      25
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 25,
+      "vw": 1.7,
+      "font": "Space Grotesk",
+      "text": "J"
+     },
+     "monoShare": 0.32,
+     "monoProseShare": 0.32,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "root@portfolio:~$",
+      "whoami",
+      ">> developer >> cybersecurity >> always ",
+      "root@portfolio:~$",
+      "_",
+      "_"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.27,
+     "smallText": 10
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#141c20",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.23,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#000703",
+       "top": 32,
+       "hsl": {
+        "h": 146,
+        "s": 1,
+        "l": 0.01
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#aec2c2",
+       "share": 0.25
+      },
+      {
+       "color": "#00ee70",
+       "share": 0.24
+      },
+      {
+       "color": "#c4d1d5",
+       "share": 0.15
+      },
+      {
+       "color": "#f0f3f5",
+       "share": 0.13
+      },
+      {
+       "color": "#31ff8a",
+       "share": 0.1
+      }
+     ],
+     "button": {
+      "bg": "#06180d",
+      "hsl": {
+       "h": 143,
+       "s": 0.6,
+       "l": 0.06
+      },
+      "fg": "#e9fff2"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 6,
+     "radius": 14,
+     "height": 58,
+     "withShadow": 5,
+     "withGradient": 5,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to links",
+      "GitHub My code & projects (opens in a ne",
+      "LinkedIn Let's connect (opens in a new t",
+      "Read My Blog Tech, Security, and More (o",
+      "My Projects Things I’ve built (opens in "
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "main.hub.relative → rgba(0, 0, 0, 0.533) 0px 6px 24px 0px",
+      "div.avatar-ring.mx-auto → rgb(56, 255, 117) 0px 0px 9.98916px 0px, rgba(0, 255, 102, 0.376) 0px 0px 27.981",
+      "a.link-card.flex → rgba(0, 255, 136, 0.16) 0px 0px 5px 0px, rgba(0, 255, 136, 0.024) 0px 0px 8px 0p",
+      "a.link-card.flex → rgba(0, 255, 136, 0.16) 0px 0px 5px 0px, rgba(0, 255, 136, 0.024) 0px 0px 8px 0p"
+     ],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.circuit-grid → linear-gradient(rgba(0, 212, 93, 0.07) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(0, 212, 93, 0.0",
+      "div.scanlines → repeating-linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 3px, rgba(0, 255, 136, 0.01) 3px, rgba("
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 26,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 26,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.17
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 234,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "space grotesk",
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 900,
+    "margins": {
+     "left": 512,
+     "right": 419
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "John Doe John Doe",
+      "size": 25,
+      "top": 245,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.24,
+    "voidBox": {
+     "x": 780,
+     "y": 420,
+     "w": 660,
+     "h": 480
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 1,
+   "filled": [
+    0.67
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 4,
+    "transitions": 0,
+    "scripted": 11,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1024,
+     "screens": 1,
+     "words": 103,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "John Doe John Doe",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 25,
+     "vw": 3.3,
+     "font": "Space Grotesk",
+     "weight": 700,
+     "tracking": -0.032,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.52,
+     "top": 245,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "John Doe John Doe",
+     "words": 4,
+     "lines": 1,
+     "size": 25,
+     "font": "Space Grotesk"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Arial",
+       "share": 0.66,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.32,
+       "mono": true
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      8,
+      12,
+      13,
+      14,
+      16,
+      25
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 25,
+      "vw": 3.3,
+      "font": "Space Grotesk",
+      "text": "J"
+     },
+     "monoShare": 0.32,
+     "monoProseShare": 0.32,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "root@portfolio:~$",
+      "whoami",
+      ">> developer >> cybersecurity >> always ",
+      "root@portfolio:~$",
+      "_",
+      "_"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.27,
+     "smallText": 10
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#141c20",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.23,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#000703",
+       "top": 32,
+       "hsl": {
+        "h": 146,
+        "s": 1,
+        "l": 0.01
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#aec2c2",
+       "share": 0.25
+      },
+      {
+       "color": "#00ee70",
+       "share": 0.24
+      },
+      {
+       "color": "#c4d1d5",
+       "share": 0.15
+      },
+      {
+       "color": "#f0f3f5",
+       "share": 0.13
+      },
+      {
+       "color": "#31ff8a",
+       "share": 0.1
+      }
+     ],
+     "button": {
+      "bg": "#06180d",
+      "hsl": {
+       "h": 143,
+       "s": 0.6,
+       "l": 0.06
+      },
+      "fg": "#e9fff2"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 6,
+     "radius": 14,
+     "height": 58,
+     "withShadow": 5,
+     "withGradient": 5,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to links",
+      "GitHub My code & projects (opens in a ne",
+      "LinkedIn Let's connect (opens in a new t",
+      "Read My Blog Tech, Security, and More (o",
+      "My Projects Things I’ve built (opens in "
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "main.hub.relative → rgba(0, 0, 0, 0.533) 0px 6px 24px 0px",
+      "div.avatar-ring.mx-auto → rgb(56, 255, 117) 0px 0px 9.99484px 0px, rgba(0, 255, 102, 0.376) 0px 0px 27.991",
+      "a.link-card.flex → rgba(0, 255, 136, 0.16) 0px 0px 5px 0px, rgba(0, 255, 136, 0.024) 0px 0px 8px 0p",
+      "a.link-card.flex → rgba(0, 255, 136, 0.16) 0px 0px 5px 0px, rgba(0, 255, 136, 0.024) 0px 0px 8px 0p"
+     ],
+     "gradients": 7,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.circuit-grid → linear-gradient(rgba(0, 212, 93, 0.07) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(0, 212, 93, 0.0",
+      "div.scanlines → repeating-linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 3px, rgba(0, 255, 136, 0.01) 3px, rgba(",
+      "a.link-card.flex → linear-gradient(110deg, rgba(6, 24, 13, 0.85), rgba(0, 16, 9, 0.91))",
+      "a.link-card.flex → linear-gradient(110deg, rgba(6, 24, 13, 0.85), rgba(0, 16, 9, 0.91))"
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 26,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 26,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 234,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "space grotesk",
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1024,
+    "margins": {
+     "left": 176,
+     "right": 83
+    },
+    "sections": [
+     {
+      "sel": "img.cyber-map",
+      "tag": "img",
+      "top": 33,
+      "height": 350,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 65,
+      "right": 65,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.circuit-grid",
+      "tag": "div",
+      "top": 47,
+      "height": 743,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.scanlines",
+      "tag": "div",
+      "top": 33,
+      "height": 771,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.frame-corners",
+      "tag": "div",
+      "top": 47,
+      "height": 740,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "John Doe John Doe",
+      "size": 25,
+      "top": 245,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 1,
+   "filled": [
+    0.87
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 4,
+    "transitions": 0,
+    "scripted": 11,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 844,
+     "screens": 1,
+     "words": 103,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "John Doe John Doe",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 25,
+     "vw": 6.4,
+     "font": "Space Grotesk",
+     "weight": 700,
+     "tracking": -0.032,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.84,
+     "top": 200,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "John Doe John Doe",
+     "words": 4,
+     "lines": 1,
+     "size": 25,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "John Doe John Doe",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Space Grotesk",
+      "weight": 700,
+      "tracking": -0.032,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 200,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Arial",
+       "share": 0.66,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.32,
+       "mono": true
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      8,
+      11,
+      12,
+      13,
+      14,
+      16,
+      25
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 25,
+      "vw": 6.4,
+      "font": "Space Grotesk",
+      "text": "J"
+     },
+     "monoShare": 0.32,
+     "monoProseShare": 0.32,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "root@portfolio:~$",
+      "whoami",
+      ">> developer >> cybersecurity >> always ",
+      "root@portfolio:~$",
+      "_",
+      "_"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.27,
+     "smallText": 10
+    },
+    "eyebrows": [
+     {
+      "text": "root@portfolio:~$",
+      "above": "John Doe John Doe",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 8,
+      "top": 119
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#141c20",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.23,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#000703",
+       "top": 7,
+       "hsl": {
+        "h": 146,
+        "s": 1,
+        "l": 0.01
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#aec2c2",
+       "share": 0.25
+      },
+      {
+       "color": "#00ee70",
+       "share": 0.24
+      },
+      {
+       "color": "#c4d1d5",
+       "share": 0.15
+      },
+      {
+       "color": "#f0f3f5",
+       "share": 0.13
+      },
+      {
+       "color": "#31ff8a",
+       "share": 0.1
+      }
+     ],
+     "button": {
+      "bg": "#06180d",
+      "hsl": {
+       "h": 143,
+       "s": 0.6,
+       "l": 0.06
+      },
+      "fg": "#e9fff2"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 6,
+     "radius": 14,
+     "height": 52,
+     "withShadow": 5,
+     "withGradient": 5,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to links",
+      "GitHub My code & projects (opens in a ne",
+      "LinkedIn Let's connect (opens in a new t",
+      "Read My Blog Tech, Security, and More (o",
+      "My Projects Things I’ve built (opens in "
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "main.hub.relative → rgba(0, 0, 0, 0.533) 0px 6px 24px 0px",
+      "div.avatar-ring.mx-auto → rgb(56, 255, 117) 0px 0px 9.99485px 0px, rgba(0, 255, 102, 0.376) 0px 0px 27.991",
+      "a.link-card.flex → rgba(0, 255, 136, 0.16) 0px 0px 5px 0px, rgba(0, 255, 136, 0.024) 0px 0px 8px 0p",
+      "a.link-card.flex → rgba(0, 255, 136, 0.16) 0px 0px 5px 0px, rgba(0, 255, 136, 0.024) 0px 0px 8px 0p"
+     ],
+     "gradients": 7,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.circuit-grid → linear-gradient(rgba(0, 212, 93, 0.07) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(0, 212, 93, 0.0",
+      "div.scanlines → repeating-linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 3px, rgba(0, 255, 136, 0.01) 3px, rgba(",
+      "a.link-card.flex → linear-gradient(110deg, rgba(6, 24, 13, 0.85), rgba(0, 16, 9, 0.91))",
+      "a.link-card.flex → linear-gradient(110deg, rgba(6, 24, 13, 0.85), rgba(0, 16, 9, 0.91))"
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 2,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 26,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 26,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 222,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "space grotesk",
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 844,
+    "margins": {
+     "left": 24,
+     "right": 23
+    },
+    "sections": [
+     {
+      "sel": "div.terminal-background.pointer-events-none",
+      "tag": "div",
+      "top": 7,
+      "height": 711,
+      "words": 18,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 349,
+      "right": 23,
+      "textLeft": 349,
+      "textRight": 23,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.hub-content.relative",
+      "tag": "div",
+      "top": 7,
+      "height": 711,
+      "words": 52,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 84,
+      "textLeft": 24,
+      "textRight": 84,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "John Doe John Doe",
+      "size": 25,
+      "top": 200,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\artifacts\\taste-final\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\artifacts\\taste-final\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\artifacts\\taste-final\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\artifacts\\taste-final\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\artifacts\\taste-final\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\artifacts\\taste-final\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
