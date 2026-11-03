@@ -62,7 +62,7 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "John Doe John Doe",
+     "text": "Ed James Ed James",
      "words": 4,
      "chars": 17,
      "lines": 1,
@@ -83,7 +83,7 @@
      "kind": "heading"
     },
     "h1": {
-     "text": "John Doe John Doe",
+     "text": "Ed James Ed James",
      "words": 4,
      "lines": 1,
      "size": 25,
@@ -288,7 +288,7 @@
     "gaps": [],
     "h1s": [
      {
-      "text": "John Doe John Doe",
+      "text": "Ed James Ed James",
       "size": 25,
       "top": 245,
       "firstScreen": true
@@ -357,7 +357,7 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "John Doe John Doe",
+     "text": "Ed James Ed James",
      "words": 4,
      "chars": 17,
      "lines": 1,
@@ -378,7 +378,7 @@
      "kind": "heading"
     },
     "h1": {
-     "text": "John Doe John Doe",
+     "text": "Ed James Ed James",
      "words": 4,
      "lines": 1,
      "size": 25,
@@ -662,7 +662,7 @@
     "gaps": [],
     "h1s": [
      {
-      "text": "John Doe John Doe",
+      "text": "Ed James Ed James",
       "size": 25,
       "top": 245,
       "firstScreen": true
@@ -726,7 +726,7 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "John Doe John Doe",
+     "text": "Ed James Ed James",
      "words": 4,
      "chars": 17,
      "lines": 1,
@@ -747,7 +747,7 @@
      "kind": "heading"
     },
     "h1": {
-     "text": "John Doe John Doe",
+     "text": "Ed James Ed James",
      "words": 4,
      "lines": 1,
      "size": 25,
@@ -755,7 +755,7 @@
     },
     "headings": [
      {
-      "text": "John Doe John Doe",
+      "text": "Ed James Ed James",
       "words": 4,
       "chars": 17,
       "lines": 1,
@@ -846,7 +846,7 @@
     "eyebrows": [
      {
       "text": "root@portfolio:~$",
-      "above": "John Doe John Doe",
+      "above": "Ed James Ed James",
       "upper": false,
       "tracked": false,
       "mono": true,
@@ -1027,7 +1027,7 @@
     "gaps": [],
     "h1s": [
      {
-      "text": "John Doe John Doe",
+      "text": "Ed James Ed James",
       "size": 25,
       "top": 200,
       "firstScreen": true

@@ -1,0 +1,1904 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\playwright.config.ts",
+    "rootDir": "C:/Users/ED/Documents/Random Projects/CLONE liktree/frontend/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ED/Documents/Random Projects/CLONE liktree/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/ED/Documents/Random Projects/CLONE liktree/frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 20000
+      },
+      {
+        "outputDir": "C:/Users/ED/Documents/Random Projects/CLONE liktree/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/ED/Documents/Random Projects/CLONE liktree/frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 20000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "chromium",
+        "testDir": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests",
+        "snapshotDir": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 20000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "chromium",
+          "channel": "msedge"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "webkit",
+        "testDir": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests",
+        "snapshotDir": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 20000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/mobile-themes/tests.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "mobile-themes.spec.ts",
+      "file": "mobile-themes.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "touch feedback does not leave desktop hover stuck",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1733,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:00.708Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-b650963e7fc53bbc44c6",
+          "file": "mobile-themes.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "enabling reduced motion finishes active terminal immediately",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 361,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:02.675Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-fa152b4f3b306c4c29b6",
+          "file": "mobile-themes.spec.ts",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "three themes are selectable and persisted without replacing content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 554,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:03.044Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-af60243cbac2fb7eb4a8",
+          "file": "mobile-themes.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "all themes preserve layout at 320px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 481,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:03.606Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-4cc02eb9701de7b42c8f",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 320px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 437,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:04.096Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-8b485559481801ca4ab0",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "all themes preserve layout at 375px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 484,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:04.542Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-1feefe07c4ce1295c01e",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 375px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 428,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:05.035Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-83d75a6320c110de00cd",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "all themes preserve layout at 390px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 500,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:05.476Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-1f7a5daf9c3d5f0ae3d8",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 390px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 435,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:05.984Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-cd6c45f372e0181e7328",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "all themes preserve layout at 430px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 505,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:06.432Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-67896c86eefa539a1ead",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 430px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 455,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:06.945Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-493e1e2166bbfb84f52d",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "all themes preserve layout at 1440px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 520,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:07.407Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-355b63ad2fd4c6b9c681",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 1440px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 594,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:07.936Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-49e56f4084b7792af201",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "switching does not remount, restart animations, navigate, or reset scroll",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2333,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:08.539Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-c7ccc5b58a3ad7902da5",
+          "file": "mobile-themes.spec.ts",
+          "line": 68,
+          "column": 1
+        },
+        {
+          "title": "theme changes during boot preserve progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 419,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:10.880Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-7c84853b6f14e16439a3",
+          "file": "mobile-themes.spec.ts",
+          "line": 88,
+          "column": 1
+        },
+        {
+          "title": "invalid storage defaults to Green",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 303,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:11.308Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-5f018ac45872bc99c9f3",
+          "file": "mobile-themes.spec.ts",
+          "line": 100,
+          "column": 1
+        },
+        {
+          "title": "unavailable storage does not prevent switching",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 351,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:11.618Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-c5597dbad6cf6c10387f",
+          "file": "mobile-themes.spec.ts",
+          "line": 106,
+          "column": 1
+        },
+        {
+          "title": "saved theme is applied before the app module renders",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1031,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:11.978Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-f30251c9c879c2444cf4",
+          "file": "mobile-themes.spec.ts",
+          "line": 118,
+          "column": 1
+        },
+        {
+          "title": "keyboard can reach and activate each selector with visible focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 430,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:13.018Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-8b5fdba100223d4aef16",
+          "file": "mobile-themes.spec.ts",
+          "line": 130,
+          "column": 1
+        },
+        {
+          "title": "mobile animation progresses and settles without runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2347,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:13.456Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-0bb4210eb774562bee92",
+          "file": "mobile-themes.spec.ts",
+          "line": 149,
+          "column": 1
+        },
+        {
+          "title": "animation fallback works without CSS property registration or linear easing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1974,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:15.810Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-c6e8bd0fb28cc47ea475",
+          "file": "mobile-themes.spec.ts",
+          "line": 173,
+          "column": 1
+        },
+        {
+          "title": "readable text retains AA contrast in each theme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 376,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:17.791Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-1d23a411c1d2cd45090d",
+          "file": "mobile-themes.spec.ts",
+          "line": 193,
+          "column": 1
+        },
+        {
+          "title": "desktop hover animation remains unchanged",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2732,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:18.176Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-c3d22d74c0d916a0025d",
+          "file": "mobile-themes.spec.ts",
+          "line": 215,
+          "column": 1
+        },
+        {
+          "title": "holding a touch gives feedback and releasing clears it",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2973,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:20.914Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-15afd62540598e91b536",
+          "file": "mobile-themes.spec.ts",
+          "line": 229,
+          "column": 1
+        },
+        {
+          "title": "touch feedback does not leave desktop hover stuck",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1977,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:00.708Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-2a70bcce0479b21fbd52",
+          "file": "mobile-themes.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "enabling reduced motion finishes active terminal immediately",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 399,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:02.748Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-b705c3bdb0c00d4508cc",
+          "file": "mobile-themes.spec.ts",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "three themes are selectable and persisted without replacing content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1434,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:03.161Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-4b50a4f909081228c061",
+          "file": "mobile-themes.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "all themes preserve layout at 320px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 946,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:04.606Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-822a375bcc41e07475ad",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 320px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Original baselines captured in Chromium",
+                  "location": {
+                    "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                    "line": 57,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 145,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:05.561Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Original baselines captured in Chromium",
+                      "location": {
+                        "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                        "line": 57,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-8e473760b28997cf1982",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "all themes preserve layout at 375px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 882,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:05.716Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-65aa8f785798fec63855",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 375px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Original baselines captured in Chromium",
+                  "location": {
+                    "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                    "line": 57,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 131,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:06.609Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Original baselines captured in Chromium",
+                      "location": {
+                        "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                        "line": 57,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-f830e0e426690bfd0626",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "all themes preserve layout at 390px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 927,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:06.750Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-afcd40f52e32d7e7394c",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 390px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Original baselines captured in Chromium",
+                  "location": {
+                    "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                    "line": 57,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 133,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:07.692Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Original baselines captured in Chromium",
+                      "location": {
+                        "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                        "line": 57,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-fec518ede1eb54af1e28",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "all themes preserve layout at 430px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 949,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:07.837Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-2196a7fdfa6fe0add198",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 430px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Original baselines captured in Chromium",
+                  "location": {
+                    "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                    "line": 57,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 139,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:08.795Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Original baselines captured in Chromium",
+                      "location": {
+                        "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                        "line": 57,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-914282540077dc6105a4",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "all themes preserve layout at 1440px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 951,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:08.944Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-ef5d55ff006529d7ac6a",
+          "file": "mobile-themes.spec.ts",
+          "line": 39,
+          "column": 3
+        },
+        {
+          "title": "Green matches original pixels at 1440px outside the added selector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Original baselines captured in Chromium",
+                  "location": {
+                    "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                    "line": 57,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 118,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:09.902Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Original baselines captured in Chromium",
+                      "location": {
+                        "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                        "line": 57,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-f40b6cf1d619f777fba3",
+          "file": "mobile-themes.spec.ts",
+          "line": 56,
+          "column": 3
+        },
+        {
+          "title": "switching does not remount, restart animations, navigate, or reset scroll",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2915,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:10.028Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-6fc115f60e3325a0b2be",
+          "file": "mobile-themes.spec.ts",
+          "line": 68,
+          "column": 1
+        },
+        {
+          "title": "theme changes during boot preserve progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 971,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:12.952Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-896e2219c4c544eb8444",
+          "file": "mobile-themes.spec.ts",
+          "line": 88,
+          "column": 1
+        },
+        {
+          "title": "invalid storage defaults to Green",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 346,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:13.931Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-722600dd238891553152",
+          "file": "mobile-themes.spec.ts",
+          "line": 100,
+          "column": 1
+        },
+        {
+          "title": "unavailable storage does not prevent switching",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 557,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:14.287Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-d8bbfcb77dc3755318f1",
+          "file": "mobile-themes.spec.ts",
+          "line": 106,
+          "column": 1
+        },
+        {
+          "title": "saved theme is applied before the app module renders",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1017,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:14.854Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-26d991be933d2e3715b9",
+          "file": "mobile-themes.spec.ts",
+          "line": 118,
+          "column": 1
+        },
+        {
+          "title": "keyboard can reach and activate each selector with visible focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 532,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:15.878Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-b6d6d5fbb27f97b50fc1",
+          "file": "mobile-themes.spec.ts",
+          "line": 130,
+          "column": 1
+        },
+        {
+          "title": "mobile animation progresses and settles without runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2942,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:16.419Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-c2a78871ad5779311d4e",
+          "file": "mobile-themes.spec.ts",
+          "line": 149,
+          "column": 1
+        },
+        {
+          "title": "animation fallback works without CSS property registration or linear easing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2997,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:19.370Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-1158a0b79d7e2486dcab",
+          "file": "mobile-themes.spec.ts",
+          "line": 173,
+          "column": 1
+        },
+        {
+          "title": "readable text retains AA contrast in each theme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 721,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:22.375Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-62a4519309f328cf3b5e",
+          "file": "mobile-themes.spec.ts",
+          "line": 193,
+          "column": 1
+        },
+        {
+          "title": "desktop hover animation remains unchanged",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3492,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:23.103Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-68755711754faca4b9e8",
+          "file": "mobile-themes.spec.ts",
+          "line": 215,
+          "column": 1
+        },
+        {
+          "title": "holding a touch gives feedback and releasing clears it",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "CDP provides real touch hold/release; WebKit tap covered separately",
+                  "location": {
+                    "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                    "line": 230,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 112,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-03T09:45:26.606Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "CDP provides real touch hold/release; WebKit tap covered separately",
+                      "location": {
+                        "file": "C:\\Users\\ED\\Documents\\Random Projects\\CLONE liktree\\frontend\\tests\\mobile-themes.spec.ts",
+                        "line": 230,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "f2d6dfdcae8e820d1221-6838355232f12d1866de",
+          "file": "mobile-themes.spec.ts",
+          "line": 229,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-03T09:45:00.311Z",
+    "duration": 26490.122,
+    "expected": 42,
+    "skipped": 6,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

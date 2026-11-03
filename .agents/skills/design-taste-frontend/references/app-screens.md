@@ -290,7 +290,7 @@ chart. The newer helpers return `{ svg, legend }`: put that legend in the card's
 drawing your own, so each swatch is the mark it explains. Format every figure by §7.4: separators, fixed decimals per
 metric, a sign on every change, units as smaller grey suffixes, tabular figures, right alignment in
 columns. Use the product's own words for labels. No placeholder data: the inspector fails lorem ipsum,
-Acme, John Doe and their kind. Proof is not invented here either: no vanity totals, no "+12%" on an
+Acme, Ed James and their kind. Proof is not invented here either: no vanity totals, no "+12%" on an
 account that is a week old.
 
 ### 2.6 Build the states
@@ -1145,7 +1145,7 @@ Still banned, as on pages, and checked:
 | Rainbow charts: more than four hues, a hue per bar, one subject in two hues | One hue per chart, neutrals for the rest |
 | Sparklines on KPIs (0 of 23) | The trend in its own chart, or nowhere |
 | Emoji in greetings, labels, nav or empty states | Words |
-| Lorem ipsum, Acme, John Doe, "User 1"; vanity figures ("10,000+ teams"); totals that do not add up | Believable sample data computed from rows, listed in the report |
+| Lorem ipsum, Acme, Ed James, "User 1"; vanity figures ("10,000+ teams"); totals that do not add up | Believable sample data computed from rows, listed in the report |
 | Status colour on a zero or undefined change | Grey, or the change in words ("+4 (new)") |
 | A dark or saturated sidebar on a light screen; a navy or slate dark theme | The page ground for the sidebar; true neutral darks |
 | The accent on chrome: a tinted nav row with a left bar, coloured tab pills, a brand fill on every button | The accent on data and at most one control; a near-black primary |

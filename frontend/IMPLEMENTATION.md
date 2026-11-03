@@ -31,13 +31,13 @@ The UI verification defaults to a running dev server at http://127.0.0.1:5173 an
 
 ## Customize
 
-Edit `src/lib/profile.ts` for identity, tagline, introduction, avatar, footer, and all five link destinations. John Doe is the reference identity. GitHub, LinkedIn, OWASP writeups, GitHub Explore, and hello@example.com are illustrative destinations, not verified personal accounts. Replace them before publishing. External links open in a new tab; contact opens the visitor's mail client. No backend or API integration was added.
+Edit `src/lib/profile.ts` for identity, tagline, introduction, avatar, footer, and all five link destinations. Ed James is the reference identity. GitHub, LinkedIn, OWASP writeups, GitHub Explore, and hello@example.com are illustrative destinations, not verified personal accounts. Replace them before publishing. External links open in a new tab; contact opens the visitor's mail client. No backend or API integration was added.
 
 Components are in `src/components/features/link-hub/`, composed by `src/pages/home.tsx`. Global visual tokens and responsive styles are in `src/styles/global.css`.
 
 ## Visual comparison
 
-Open `artifacts/comparison.html` for the supplied reference beside the final 360 × 731 screenshot. Three focused visual passes were performed:
+Open `artifacts/comparison.html` for the supplied reference beside the final 360 ï¿½ 731 screenshot. Three focused visual passes were performed:
 
 1. Static layout: matched 296px card width and 120px avatar; first card was 3px too low, body type too geometric, map/grid too prominent, document/mail icons incorrect.
 2. Static refinement: moved first card to y=310, changed body type to Arial for closer proportions, refined wrapping, replaced rough map with Natural Earth geometry, softened grid.

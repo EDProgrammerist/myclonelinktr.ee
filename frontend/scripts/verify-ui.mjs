@@ -16,7 +16,7 @@ for(const width of [320,360,375,768,1440]) {
   assert.equal(metrics.cards.length,5);
   assert(metrics.cards.every(c=>c.height>=44));
   assert(metrics.avatarLoaded);
-  assert.equal(metrics.heading,'John Doe');
+  assert.equal(metrics.heading,'Ed James');
   assert.equal(metrics.animations,0);
   assert.equal(await page.getByRole('button',{name:'Skip',exact:true}).count(),0);
   await page.keyboard.press('Tab');
@@ -35,7 +35,7 @@ await page.goto(baseUrl);
 await page.getByRole('button',{name:'Skip',exact:true}).click();
 assert.equal(await page.locator('.boot-lines').textContent(),'>> developer\n>> cybersecurity\n>> always learning');
 await page.waitForTimeout(2600);
-assert.equal(await page.locator('h1 [aria-hidden=true]').innerText(),'John Doe');
+assert.equal(await page.locator('h1 [aria-hidden=true]').innerText(),'Ed James');
 await page.screenshot({path:'artifacts/pass-3-animated-360.png',fullPage:true});
 const first=page.locator('.link-card').first();
 const before=await first.boundingBox();
