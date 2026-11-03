@@ -4,7 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#030b06" />
-    <meta name="description" content="John Doe — developer and cybersecurity enthusiast. Code, projects, security writeups, and ways to connect." />
+    <script>
+      // Apply before styles/React paint. Invalid or blocked storage defaults to Green.
+      (function () {
+        var theme = 'green';
+        try {
+          var saved = localStorage.getItem('cyber-terminal-theme');
+          if (saved === 'blue' || saved === 'red') theme = saved;
+        } catch (_) {}
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content =
+          theme === 'blue' ? '#030b16' : theme === 'red' ? '#100508' : '#030b06';
+      })();
+    </script>
+    <meta name="description" content="Ed James — developer and cybersecurity enthusiast. Code, projects, security writeups, and ways to connect." />
     <title>Ed James | Cyber Terminal</title>
   </head>
   <body>
